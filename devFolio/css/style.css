@@ -1,0 +1,277 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.title-line{
+    width: 40px;
+    height: 5px;
+}
+
+.icon {
+    width: 120px;
+    height: 120px;
+}
+
+/* ----------------- home -------------- */
+.home {
+    /* height: 100vh; */
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.home-layer {
+    background-color: rgba(193, 45, 45, 0.3);
+}
+
+.home #job::after {
+    content: ' |';
+    animation: typing 4s linear 5s infinite;
+}
+
+@keyframes typing {
+    0% {
+        content: ' d|';
+    }
+
+    3% {
+        content:' de|';
+    }
+
+    6% {
+        content:' des|';
+    }
+
+    9% {
+        content:' desi|';
+    }
+
+    12% {
+        content:' desig|';
+    }
+
+    15% {
+        content:' design|';
+    }
+
+    18% {
+        content:' designe|';
+    }
+
+    21% {
+        content:' designer|';
+    }
+
+    24% {
+        content:' de|';
+    }
+
+    25% {
+        content:' dev|';
+    }
+
+    28% {
+        content:' deve|';
+    }
+
+    31% {
+        content:' devel|';
+    }
+
+    34% {
+        content:' develo|';
+    }
+
+    37% {
+        content:' develop|';
+    }
+
+    40% {
+        content:' develope|';
+    }
+
+    43% {
+        content:' developer|';
+    }
+
+    45% {
+        content:' |';
+    }
+
+    45% {
+        content:' F|';
+    }
+
+    48% {
+        content:' Fr|';
+    }
+
+    51% {
+        content:' Fre|';
+    }
+
+    54% {
+        content:' Free|';
+    }
+
+    57% {
+        content:' Freel|';
+    }
+
+    61% {
+        content:' Freela|';
+    }
+
+    63% {
+        content:' Freelan|';
+    }
+
+    66% {
+        content:' Freelanc|';
+    }
+
+    69% {
+        content:' Freelance|';
+    }
+
+    71% {
+        content:' Freelancer|';
+    }
+
+    73% {
+        content:' |';
+    }
+
+    76% {
+        content:' P|';
+    }
+
+    79% {
+        content:' Ph|';
+    }
+
+    81% {
+        content:' Pho|';
+    }
+
+    83% {
+        content:' Phot|';
+    }
+
+    85% {
+        content:' Photo|';
+    }
+
+    87% {
+        content:' Photog|';
+    }
+
+    90% {
+        content:' Photogr|';
+    }
+
+    92% {
+        content:' Photogra|';
+    }
+
+    94% {
+        content:' Photograp|';
+    }
+
+    96% {
+        content:' Photograph|';
+    }
+
+    98% {
+        content:' Photographe|';
+    }
+
+    100% {
+        content:' Photographer|';
+    }
+}
+
+/* ------------------------------ about ------------------------- */
+
+.about-line{
+    width: 95px;
+    height: 3px;
+}
+
+/* ----------------------------- counter ----------------------- */
+
+.counter {
+    background-image: url(../images/post-3.jpg);
+    background-size: 100% 100%;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.about #img2 {
+    vertical-align: top;
+}
+
+/* ----------------------------- prtoflio --------------------------- */
+
+.add-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.img-trans:hover {
+    transition: all 1s;
+}
+
+/* ------------------------------ testimonial ----------------------- */
+
+.testimonial, .contact {
+    background-image: url(../images/overlay-bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.testimonial-layer, .contact-layer{
+    background-color: hsl(211, 100%, 50%,0.7);
+}
+
+.testimonial .max-width-500 {
+    width: 500px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/* ------------------------------------- blog ------------------ */
+.text-blog:hover{
+    color: #0062d3;
+}
+
+/* -------------------------------------- contact ---------------- */
+
+.contact-title-line{
+    width: 100px;
+    height: 4px;
+}
+
+.social-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 50% 50%;
+}
+
+.social-icon:hover {
+    background-color: #0062d3;
+    color: white;
+    cursor: grab;
+
+}
+/* --------------------------------------- footer ----------------- */
+footer {
+    background-color: #0062d3;
+}
